@@ -112,7 +112,7 @@ def gerar_certificado(cliente, guia, data, artigo, descricao, lotes, pdf_buffer,
     story.append(Paragraph(texto, styles['Justify']))
     story.append(Spacer(1, 36))
 
-    story.append(Paragraph("Marlene Garrido", styles['Right']))
+    story.append(Paragraph("Alexandra Garrido", styles['Right']))
     story.append(Paragraph("(Dept. Qualidade)", styles['Right']))
 
     doc.build(story)
